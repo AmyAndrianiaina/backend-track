@@ -20,5 +20,8 @@ func main() {
 	if result != expected {
 		testError := errors.New("sum of numbers failed")
 		fmt.Println("Test Failed: ", testError)
+        return
 	}
+
+    fmt.Println("All Tests Passed!");
 }
